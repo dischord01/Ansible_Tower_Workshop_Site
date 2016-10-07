@@ -17,21 +17,8 @@ enterprise:
   site_name: Documentation
   site_url: https://docs.openshift.com/
   branches:
-    enterprise-3.0:
-      name: '3.0'
-      dir: enterprise/3.0
+    master:
+      name: ''
+      dir: ''
       distro-overrides:
-        name: OpenShift Enterprise
-    enterprise-3.1:
-      name: '3.1'
-      dir: enterprise/3.1
-      distro-overrides:
-        name: OpenShift Enterprise
-    enterprise-3.2:
-      name: '3.2'
-      dir: enterprise/3.2
-      distro-overrides:
-        name: OpenShift Enterprise
-    enterprise-3.3:
-      name: '3.3'
-      dir: container-platform/3.3
+        name: ''
