@@ -1,23 +1,14 @@
 ---
 
-# red-hat-public-sector:
-#   name: Workshops
-#   author: Documentation Project <bsollar@redhat.com>
-#   site: workshops
-#   site_name: Documentation
-#   site_url: https://docs.redhatgov.io/
-#   branches:
-#     master:
-
-
-enterprise:
-  name: OpenShift Container Platform
-  author: OpenShift Documentation Project <dev@lists.openshift.redhat.com>
-  site: main
+red-hat-public-sector:
+  name: Workshops
+  author: Documentation Project <bsollar@redhat.com>
+  site: workshops
   site_name: Documentation
-  site_url: https://docs.openshift.com/
+  site_url: https://docs.redhatgov.io/
   branches:
     master:
       name: 'latest'
       dir: 'latest'
+
 
