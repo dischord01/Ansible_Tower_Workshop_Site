@@ -1,3 +1,11 @@
+/*Brad Sollar Custom Edits*/
+.navbar.navbar-default.navbar-openshift .navbar-brand.red-hat-public-sector {
+  background: url("../_images/redhat.svg") no-repeat scroll 0% 95%;
+  background-size: 200px;
+  margin-left: 100px;
+}
+
+
 .navbar.navbar-default.navbar-openshift.navbar-origin {
   background:
     linear-gradient(
