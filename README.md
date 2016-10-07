@@ -2,6 +2,11 @@
 
 ### Usage
 
+Install `ascii_binder`. 
+
+	http://www.asciibinder.org/latest/guides/user_guide.html
+
+
 Use git to track your changes. 
 
 ```
