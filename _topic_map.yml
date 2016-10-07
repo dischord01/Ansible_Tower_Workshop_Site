@@ -24,8 +24,26 @@
 Name: Workshop
 Dir: workshop
 Topics:
-  - Name: Workshop
+  - Name: Agenda
     File: index
+  - Name: Setup
+    File: setup
+  - Name: Organizations
+    File: organizations
+  - Name: Projects
+    File: projects
+  - Name: Job Templates
+    File: job-templates
+  - Name: Exercise 1
+    File: exercise1
+  - Name: Exercise 2
+    File: exercise2
+  - Name: Exercise 3
+    File: exercise3
+  - Name: Exercise 4
+    File: exercise4
+  - Name: Wrap Up
+    File: wrapup
 
 ---
 Name: Resources
