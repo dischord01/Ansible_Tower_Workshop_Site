@@ -13,7 +13,7 @@
 enterprise:
   name: OpenShift Container Platform
   author: OpenShift Documentation Project <dev@lists.openshift.redhat.com>
-  site: commercial
+  site: main
   site_name: Documentation
   site_url: https://docs.openshift.com/
   branches:
