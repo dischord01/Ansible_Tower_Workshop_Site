@@ -4,9 +4,4 @@ rvm:
 gemfile: Gemfile
 after_install: gem list
 script: bundle exec rake build
-notifications:
-  email:
-    #recipients:
-    #  - dev@lists.openshift.redhat.com
-  irc:
-    - "irc.freenode.org#openshift-dev"
+
