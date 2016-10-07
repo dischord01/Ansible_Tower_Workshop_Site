@@ -18,7 +18,6 @@ enterprise:
   site_url: https://docs.openshift.com/
   branches:
     master:
-      name: ''
-      dir: ''
-      distro-overrides:
-        name: ''
+      name: 'latest'
+      dir: 'latest'
+
