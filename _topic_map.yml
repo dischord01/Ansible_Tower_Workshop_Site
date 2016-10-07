@@ -39,3 +39,87 @@ Topics:
     File: index
   - Name: Wifi
     File: wifi
+---
+
+Name: Architecture
+Dir: architecture
+Topics:
+  - Name: Overview
+    File: index
+  - Name: Infrastructure Components
+    Dir: infrastructure_components
+    Topics:
+      - Name: Kubernetes Infrastructure
+        File: kubernetes_infrastructure
+      - Name: Image Registry
+        File: image_registry
+      - Name: Web Console
+        File: web_console
+  - Name: Core Concepts
+    Dir: core_concepts
+    Topics:
+      - Name: Overview
+        File: index
+        Distros: openshift-*
+      - Name: Containers and Images
+        File: containers_and_images
+        Distros: openshift-*
+      - Name: Images
+        File: containers_and_images
+        Distros: atomic-*
+      - Name: Pods and Services
+        File: pods_and_services
+        Distros: openshift-*
+      - Name: Projects and Users
+        File: projects_and_users
+      - Name: Builds and Image Streams
+        File: builds_and_image_streams
+        Distros: openshift-*
+      - Name: Image Streams
+        File: builds_and_image_streams
+        Distros: atomic-*
+      - Name: Deployments
+        File: deployments
+        Distros: openshift-*
+      - Name: Routes
+        File: routes
+        Distros: openshift-*
+      - Name: Templates
+        File: templates
+        Distros: openshift-*
+  - Name: Additional Concepts
+    Dir: additional_concepts
+    Topics:
+      - Name: Networking
+        File: networking
+        Distros: openshift-*
+      - Name: OpenShift SDN
+        File: sdn
+        Distros: openshift-*
+      - Name: Nuage SDN
+        File: nuagesdn
+        Distros: openshift-enterprise,openshift-origin
+      - Name: Authentication
+        File: authentication
+      - Name: Authorization
+        File: authorization
+      - Name: Persistent Storage
+        File: storage
+        Distros: openshift-*
+      - Name: Remote Commands
+        File: remote_commands
+        Distros: openshift-*
+      - Name: Port Forwarding
+        File: port_forwarding
+        Distros: openshift-*
+      - Name: Source Control Management
+        File: scm
+        Distros: openshift-*
+      - Name: Admission Controllers
+        File: admission_controllers
+        Distros: openshift-enterprise,openshift-origin,openshift-dedicated
+      - Name: Other API Objects
+        File: other_api_objects
+  - Name: Revision History
+    File: revhistory_architecture
+    Distros: openshift-enterprise,openshift-dedicated
