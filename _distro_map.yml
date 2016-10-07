@@ -6,8 +6,8 @@ red-hat-public-sector:
   site: workshops
   site_name: Documentation
   site_url: https://docs.redhatgov.io/
-  # branches:
-  #   master:
+  branches:
+    master:
 
 
 # openshift-enterprise:
