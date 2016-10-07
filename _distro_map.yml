@@ -4,7 +4,7 @@ red-hat-public-sector:
   name: Workshops
   author: Documentation Project <bsollar@redhat.com>
   site: workshops
-  site_name: Documentation
+  site_name: Containers
   site_url: https://docs.redhatgov.io/
   branches:
     master:
