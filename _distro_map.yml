@@ -1,0 +1,37 @@
+---
+
+red-hat-public-sector:
+    name: Workshops
+    author: Documentation Project <bsollar@redhat.com>
+    site: workshops
+    site_name: Documentation
+    site_url: https://docs.redhatgov.io/
+    branches:
+      master:
+
+
+# openshift-enterprise:
+#   name: OpenShift Container Platform
+#   author: OpenShift Documentation Project <dev@lists.openshift.redhat.com>
+#   site: commercial
+#   site_name: Documentation
+#   site_url: https://docs.openshift.com/
+#   branches:
+#     enterprise-3.0:
+#       name: '3.0'
+#       dir: enterprise/3.0
+#       distro-overrides:
+#         name: OpenShift Enterprise
+#     enterprise-3.1:
+#       name: '3.1'
+#       dir: enterprise/3.1
+#       distro-overrides:
+#         name: OpenShift Enterprise
+#     enterprise-3.2:
+#       name: '3.2'
+#       dir: enterprise/3.2
+#       distro-overrides:
+#         name: OpenShift Enterprise
+#     enterprise-3.3:
+#       name: '3.3'
+#       dir: container-platform/3.3
