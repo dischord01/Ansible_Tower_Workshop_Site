@@ -10,7 +10,7 @@
 #     master:
 
 
-openshift-enterprise:
+enterprise:
   name: OpenShift Container Platform
   author: OpenShift Documentation Project <dev@lists.openshift.redhat.com>
   site: commercial
