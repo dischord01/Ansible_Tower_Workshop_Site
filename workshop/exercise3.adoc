@@ -1,3 +1,5 @@
+:imagesdir: images
+
 == Exercise Three - Working with Inventory Groups
 
 For our example, I created 2 EC2 instances with the `user_id` value of bsmith (we'll call him Billy). You can see his Inventory Group in Figure 18 above. Let's make sure his systems are up and available. We can do this with his Inventory Group. For this exercise, do the same thing with your inventory group.
@@ -21,4 +23,3 @@ With a few mouse clicks, we can run powerful arbitrary commands on any subset of
 
 [TIP]
 You can, of course, select multiple groups, or individual hosts, before launching your Commands.
-

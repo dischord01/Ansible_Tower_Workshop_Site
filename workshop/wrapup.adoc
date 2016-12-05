@@ -1,3 +1,5 @@
+:imagesdir: images
+
 == Wrap Up, Q&A, and Free Style
 
 That wraps up what we have planned for today.

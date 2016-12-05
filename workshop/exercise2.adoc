@@ -1,3 +1,5 @@
+:imagesdir: images
+
 == Exercise Two - Working with Inventories
 
 [IMPORTANT]
@@ -37,4 +39,3 @@ For example, for our `user_id` tag, when I used `jduncan` as the value in my Job
 In the Inventories page, I can select these tag groups and do work on them as a whole.
 
 image::figure18.png[title="Using Amazon Tags to Create Dynamic Groups in Ansible Tower"]
-

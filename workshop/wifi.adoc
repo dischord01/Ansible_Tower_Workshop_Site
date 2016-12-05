@@ -4,6 +4,7 @@
 {product-version}
 :data-uri:
 :icons:
+:imagesdir: images
 
 [.lead]
 Welcome to the {product-title} {product-version} documentation, where you can

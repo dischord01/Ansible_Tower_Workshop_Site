@@ -1,3 +1,5 @@
+:imagesdir: images
+
 === Job Templates
 
 This is where the rubber meets the road. A job template combines all of the things we just set up
@@ -9,6 +11,20 @@ This is where the rubber meets the road. A job template combines all of the thin
 
 and puts them all together to provide a platform for effectively managing your infrastructure. Job Templates also have the ability to limit which hosts are acted on in multiple ways and configure all of the 'normal' Ansible things like whether or not a job is run with privilege escalation.
 
-image::figure13.png[title="Creating a Job Template"]
+To create a new JOB TEMPLATE inside Tower go to the following path;
+
+`JOB TEMPLATES / CREATE JOB TEMPLATE`
 
 
+image::aws-job-template.png[title="Creating a Job Template"]
+
+
+==== Running Job Templates
+
+image::aws-run-job.png[title="Starting a Job Template"]
+
+image::aws-job-template-running.png[title="Running a Job Template"]
+
+image::aws-job-template-esults.png[title="Results of a Job Template"]
+
+image::aws-instance.png[title="New AWS Instance"]

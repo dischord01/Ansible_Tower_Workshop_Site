@@ -32,6 +32,10 @@ Topics:
     File: organizations
   - Name: Projects
     File: projects
+  - Name: Credentials
+    File: credentials
+  - Name: Inventories
+    File: inventories
   - Name: Job Templates
     File: job-templates
   - Name: Exercise 1
@@ -51,5 +55,3 @@ Dir: resources
 Topics:
   - Name: Links
     File: links
-
-

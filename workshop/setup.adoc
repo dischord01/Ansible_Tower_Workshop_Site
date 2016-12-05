@@ -1,15 +1,32 @@
-=== Setup
+:imagesdir: images
+:tower_url: https://ansible.tower.redhatgov.io
+
+== Setup
+
+== Ansible Tower
+image::logo-ansible-tower.png[Ansible]
+=== Infrastructure
+
+For this lab, we will be using Ansible Tower 3.0.2, which is the latest production release. We are running it in an link:https://aws.amazon.com/ec2/instance-types/[`m4.xlarge`] AWS instance.
+
+[NOTE]
+.We know this is resource overkill
+====
+But we'll only be running this for a few days and our bosses are paying the bill. :)
+====
+
 
 This lab is NOT a walkthrough of Ansible Tower's setup. To be honest, it's too simple.
+
+==== Steps to setup Ansible Tower
 
 * get a system of correct size
 * register it with Red Hat
 * subscribe it to the proper channels
 * download a tarball containing the Ansible setup scripts
 * fill a few variables out in an inventory file
-* run `setup.sh`
+* Run ansible playbook
 
-`setup.sh` just calls a playbook that deploys Ansible Tower. Total setup for this lab took approximately 45 minutes, end-to-end.
 
 === End Result
 
@@ -19,9 +36,19 @@ The Ansible Tower we set up for this lab is at {tower_url}
 
 You know you were successful if you are able to browse to your Tower's hostname and get some like
 
-image::figure1.png[title="Ansible Tower Login Screen"]
+image::login.png[title="Ansible Tower Login Screen"]
 
 To log in, you use the admin password you set in your inventory file. It's just that easy!
+
+[IMPORTANT]
+Students will use the `student` + the number you were assigned for `USERNAME` + `PASSWORD`
+
+.Example
+[source]
+----
+USERNAME: student1
+PASSWORD: student1
+----
 
 == The Tower UI
 
@@ -33,6 +60,9 @@ The `settings` menu (the little gear in the top right corner) is where you do a 
 
 We won't need to cover them all, but a few are key for us to be able to effectively use Tower today.
 
+image::settings.png[title="Ansible Tower Settings Screen"]
+
+
 . Settings Options
 * Organizations - Create Logical Organizations within Tower
 * Users - Manage Users, including their permissions
@@ -43,4 +73,3 @@ We won't need to cover them all, but a few are key for us to be able to effectiv
 * Notifications - Manage various kinds of notifications like Email, SMS, and Slack
 * View your License Info
 * About Tower
-

@@ -1,3 +1,5 @@
+:imagesdir: images
+
 == Exercise Four - Creating a Job Template
 
 At this point, we can confidently navigate and we have gone through (almost) all of the major concepts in Ansible Tower. The final scripted exercise we have scheduled for today is going through the process around creating a Job Template.
@@ -93,4 +95,3 @@ image::figure21.png[title="Creating a Job Template to Add Users"]
 ====
 
 image::figure22.png[title="Creating a Job Template Survey"]
-
